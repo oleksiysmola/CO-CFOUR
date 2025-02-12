@@ -1,0 +1,17 @@
+Carbon Monoxide DBOC calculation
+C
+O 1 r*
+
+r    =        1.122025223255084
+
+
+*CFOUR(CALC=CCSD,BASIS=AUG-PCVQZ,SCF_CONV=10
+CC_CONV=14,DBOC=OFF,MEMORY=500000000
+ZFIELD=0)
+
+%isotopes
+12
+16
+
+%integrals
+dipole
