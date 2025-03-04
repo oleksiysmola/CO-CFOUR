@@ -1,0 +1,4 @@
+grep -E "The total diagonal Born-Oppenheimer correction \(DBOC\) is:[[:space:]]+[+-]?[0-9]*\.?[0-9]+[[:space:]]+a\.u\." *pve.out > CO28-Dipole-pve.dat
+grep -E "The total diagonal Born-Oppenheimer correction \(DBOC\) is:[[:space:]]+[+-]?[0-9]*\.?[0-9]+[[:space:]]+a\.u\." *nve.out > CO28-Dipole-nve.dat
+grep -E "The total diagonal Born-Oppenheimer correction \(DBOC\) is:[[:space:]]+[+-]?[0-9]*\.?[0-9]+[[:space:]]+a\.u\." *pve.out > CO36-Dipole-pve.dat
+grep -E "The total diagonal Born-Oppenheimer correction \(DBOC\) is:[[:space:]]+[+-]?[0-9]*\.?[0-9]+[[:space:]]+a\.u\." *nve.out > CO36-Dipole-nve.dat
